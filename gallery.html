@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Luxury Haveli Estates</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Luxury Haveli Estates</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="properties.html">Properties</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-banner">
+        <div class="banner-content">
+            <h1>Our Luxury Property Gallery</h1>
+            <p>Browse through our collection of exclusive Indian heritage properties and dream homes</p>
+        </div>
+    </section>
+
+    <section class="gallery-intro">
+        <div class="container">
+            <h2 class="section-title">A Glimpse of Royal Luxury</h2>
+            <p class="section-subtitle">Explore our curated collection of luxury Indian properties, featuring stunning architecture, exquisite interiors, and breathtaking views. Our gallery showcases the finest real estate available in the most prestigious locations across India.</p>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All Properties</button>
+                <button class="filter-btn" data-filter="haveli">Havelis</button>
+                <button class="filter-btn" data-filter="bungalow">Bungalows</button>
+                <button class="filter-btn" data-filter="penthouse">Penthouses</button>
+                <button class="filter-btn" data-filter="villa">Villas</button>
+                <button class="filter-btn" data-filter="farmhouse">Farmhouses</button>
+                <button class="filter-btn" data-filter="interior">Interiors</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="photo-gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="haveli">
+                    <img src="images/gallery1.jpg" alt="Royal Haveli">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Maharaja Heritage Haveli</h3>
+                            <p>Jaipur, Rajasthan</p>
+                            <a href="images/gallery1.jpg" class="view-icon lightbox-trigger"><i class="fas fa-search-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="penthouse">
+                    <img src="images/gallery2.jpg" alt="Luxury Penthouse">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Skyline Luxury Penthouse</h3>
+                            <p>Worli, Mumbai</p>
+                            <a href="images/gallery2.jpg" class="view-icon lightbox-trigger"><i class="fas fa-search-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="villa">
+                    <img src="images/gallery3.jpg" alt="Kerala Villa">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Backwater Heritage Villa</h3>
+                            <p>Kumarakom, Kerala</p>
+                            <a href="images/gallery3.jpg" class="view-icon lightbox-trigger"><i class="fas fa-search-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="farmhouse">
+                    <img src="images/gallery4.jpg" alt="Farmhouse Property">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Exclusive Luxury Farmhouse</h3>
+                            <p>Chattarpur, Delhi NCR</p>
+                            <a href="images/gallery4.jpg" class="view-icon lightbox-trigger"><i class="fas fa-search-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="interior">
+                    <img src="images/gallery5.jpg" alt="Luxury Interior">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Royal Rajasthani Foyer</h3>
+                            <p>Traditional Luxury Design</p>
+                            <a href="images/gallery5.jpg" class="view-icon lightbox-trigger"><i class="fas fa-search-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="haveli">
+                    <img src="images/gallery6.jpg" alt="Heritage Haveli">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Historic Nizam's Haveli</h3>
+                            <p>Hyderabad, Telangana</p>
+                            <a href="images/gallery6.jpg" class="view-icon lightbox-trigger"><i class="fas fa-search-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="bungalow">
+                    <img src="images/gallery7.jpg" alt="Modern Bungalow">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Contemporary Luxury Bungalow</h3>
+                            <p>Juhu, Mumbai</p>
+                            <a href="images/gallery7.jpg" class="view-icon lightbox-trigger"><i class="fas fa-search-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="interior">
+                    <img src="images/gallery8.jpg" alt="Luxury Kitchen">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Modern Indian Kitchen</h3>
+                            <p>Contemporary Fusion Design</p>
+                            <a href="images/gallery8.jpg" class="view-icon lightbox-trigger"><i class="fas fa-search-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="villa">
+                    <img src="images/gallery9.jpg" alt="Goan Villa">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Portuguese-Inspired Villa</h3>
+                            <p>Candolim, Goa</p>
+                            <a href="images/gallery9.jpg" class="view-icon lightbox-trigger"><i class="fas fa-search-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="farmhouse">
+                    <img src="images/gallery10.jpg" alt="Lake View Farmhouse">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Lakeside Farmhouse Estate</h3>
+                            <p>Udaipur, Rajasthan</p>
+                            <a href="images/gallery10.jpg" class="view-icon lightbox-trigger"><i class="fas fa-search-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="penthouse">
+                    <img src="images/gallery11.jpg" alt="Penthouse View">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Sea-Facing Luxury Penthouse</h3>
+                            <p>Marine Drive, Mumbai</p>
+                            <a href="images/gallery11.jpg" class="view-icon lightbox-trigger"><i class="fas fa-search-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="bungalow">
+                    <img src="images/gallery12.jpg" alt="Tea Estate Bungalow">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Tea Plantation Bungalow</h3>
+                            <p>Darjeeling, West Bengal</p>
+                            <a href="images/gallery12.jpg" class="view-icon lightbox-trigger"><i class="fas fa-search-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="gallery-load-more">
+                <button class="btn">Load More</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="lightbox-container">
+        <div class="lightbox-content">
+            <img src="" alt="Gallery Image" id="lightbox-image">
+            <div class="lightbox-caption">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-description"></p>
+            </div>
+            <button class="lightbox-close"><i class="fas fa-times"></i></button>
+            <button class="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <section class="featured-properties-gallery">
+        <div class="container">
+            <h2 class="section-title">Featured Property Showcase</h2>
+            <p class="section-subtitle">Take a detailed look at some of our most prestigious listings currently available on the market.</p>
+            
+            <div class="featured-gallery-slider">
+                <div class="featured-slide">
+                    <div class="slide-image">
+                        <img src="images/featured-property1.jpg" alt="Featured Property">
+                    </div>
+                    <div class="slide-caption">
+                        <h3>Royal Udaipur Lakeside Haveli</h3>
+                        <p>Set on 5 acres of pristine lakefront property, this Rajasthani-inspired heritage haveli offers 12,000 sq ft of luxury living with panoramic lake views, private ghats, and resort-style amenities with original frescoes and jharokhas.</p>
+                        <p class="property-price">₹24.5 Crore</p>
+                    </div>
+                </div>
+                
+                <div class="featured-slide">
+                    <div class="slide-image">
+                        <img src="images/featured-property2.jpg" alt="Featured Property">
+                    </div>
+                    <div class="slide-caption">
+                        <h3>Modern Architectural Masterpiece</h3>
+                        <p>This award-winning modern residence in Gurgaon features floor-to-ceiling glass walls, an infinity pool, and sophisticated smart home technology throughout its 8,500 sq ft of living space, blending contemporary design with Indian elements.</p>
+                        <p class="property-price">₹18.75 Crore</p>
+                    </div>
+                </div>
+                
+                <div class="featured-slide">
+                    <div class="slide-image">
+                        <img src="images/featured-property3.jpg" alt="Featured Property">
+                    </div>
+                    <div class="slide-caption">
+                        <h3>Colonial Tea Estate Bungalow</h3>
+                        <p>Originally built in 1925 and meticulously restored, this historic 15-acre tea estate features a 10,000 sq ft main residence, guest house, pool pavilion, and manicured gardens with panoramic views of the Himalayan foothills.</p>
+                        <p class="property-price">₹16.9 Crore</p>
+                    </div>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                
+                <div class="view-property-link">
+                    <a href="properties.html" class="btn">View All Luxury Properties</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="virtual-tours">
+        <div class="container">
+            <h2 class="section-title">Virtual Property Tours</h2>
+            <p class="section-subtitle">Experience our luxury properties from anywhere in the world with our immersive virtual tours.</p>
+            
+            <div class="virtual-tour-grid">
+                <div class="virtual-tour-item">
+                    <div class="tour-thumbnail">
+                        <img src="images/virtual-tour1.jpg" alt="Virtual Tour">
+                        <div class="tour-overlay">
+                            <div class="tour-icon">
+                                <i class="fas fa-vr-cardboard"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Jaipur Royal Haveli</h3>
+                        <p>360° Virtual Tour Experience</p>
+                        <a href="#" class="btn">Start Tour</a>
+                    </div>
+                </div>
+                
+                <div class="virtual-tour-item">
+                    <div class="tour-thumbnail">
+                        <img src="images/virtual-tour2.jpg" alt="Virtual Tour">
+                        <div class="tour-overlay">
+                            <div class="tour-icon">
+                                <i class="fas fa-vr-cardboard"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Mumbai Sea-Facing Penthouse</h3>
+                        <p>360° Virtual Tour Experience</p>
+                        <a href="#" class="btn">Start Tour</a>
+                    </div>
+                </div>
+                
+                <div class="virtual-tour-item">
+                    <div class="tour-thumbnail">
+                        <img src="images/virtual-tour3.jpg" alt="Virtual Tour">
+                        <div class="tour-overlay">
+                            <div class="tour-icon">
+                                <i class="fas fa-vr-cardboard"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Goa Beachfront Villa</h3>
+                        <p>360° Virtual Tour Experience</p>
+                        <a href="#" class="btn">Start Tour</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta alt-cta">
+        <div class="container">
+            <h2>Ready to Find Your Dream Luxury Property?</h2>
+            <p>Our team of luxury real estate experts is ready to assist you in finding the perfect property that exceeds your expectations.</p>
+            <a href="properties.html" class="btn">Explore Properties</a>
+            <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>Luxury Haveli Estates</h3>
+                    <p>Providing exceptional service and exclusive properties to discerning clients across India and worldwide.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="properties.html">Properties</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Luxury Enclave, Bandra West, Mumbai 400050</p>
+                    <p><i class="fas fa-phone"></i> (+91) 98765-43210</p>
+                    <p><i class="fas fa-envelope"></i> info@luxuryhaveliestatestes.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Luxury Haveli Estates. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

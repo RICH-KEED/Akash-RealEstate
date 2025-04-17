@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Haveli Estates | Premium Indian Real Estate</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Luxury Haveli Estates</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="properties.html">Properties</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Extraordinary Indian Properties</h1>
+            <p>Exclusive Heritage Havelis, Luxury Villas & Premium Penthouses</p>
+            <div class="hero-buttons">
+                <a href="properties.html" class="btn">Explore Properties</a>
+                <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="search-bar">
+        <div class="container">
+            <form class="search-form">
+                <div class="search-row">
+                    <div class="search-group">
+                        <label for="location">Location</label>
+                        <select id="location" name="location">
+                            <option value="">All Locations</option>
+                            <option value="mumbai">Mumbai</option>
+                            <option value="delhi">Delhi NCR</option>
+                            <option value="bangalore">Bangalore</option>
+                            <option value="jaipur">Jaipur</option>
+                            <option value="goa">Goa</option>
+                            <option value="kerala">Kerala</option>
+                        </select>
+                    </div>
+                    <div class="search-group">
+                        <label for="property-type">Property Type</label>
+                        <select id="property-type" name="property-type">
+                            <option value="">All Types</option>
+                            <option value="haveli">Haveli</option>
+                            <option value="villa">Villa</option>
+                            <option value="penthouse">Penthouse</option>
+                            <option value="bungalow">Bungalow</option>
+                            <option value="farmhouse">Farmhouse</option>
+                        </select>
+                    </div>
+                    <div class="search-group">
+                        <label for="price-range">Price Range</label>
+                        <select id="price-range" name="price-range">
+                            <option value="">Any Price</option>
+                            <option value="1-5">₹1 Cr - ₹5 Cr</option>
+                            <option value="5-10">₹5 Cr - ₹10 Cr</option>
+                            <option value="10-20">₹10 Cr - ₹20 Cr</option>
+                            <option value="20+">₹20 Cr+</option>
+                        </select>
+                    </div>
+                    <div class="search-group">
+                        <button type="submit" class="btn btn-block">Search</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="featured-properties">
+        <div class="container">
+            <h2 class="section-title">Featured Properties</h2>
+            <p class="section-subtitle">Discover our handpicked selection of extraordinary properties across India</p>
+            
+            <div class="property-slider">
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="images/property1.jpg" alt="Maharaja Heritage Haveli">
+                        <span class="property-status">For Sale</span>
+                        <span class="property-featured"><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="property-details">
+                        <div class="property-type">Heritage Haveli</div>
+                        <h3 class="property-title">Maharaja Heritage Haveli</h3>
+                        <div class="property-location"><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan</div>
+                        <div class="property-price">₹15.5 Crore</div>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 6 Beds</span>
+                            <span><i class="fas fa-bath"></i> 7 Baths</span>
+                            <span><i class="fas fa-vector-square"></i> 8,500 sq ft</span>
+                        </div>
+                        <a href="property-details.html" class="btn">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="images/property2.jpg" alt="Sea-Facing Luxury Penthouse">
+                        <span class="property-status">For Sale</span>
+                    </div>
+                    <div class="property-details">
+                        <div class="property-type">Penthouse</div>
+                        <h3 class="property-title">Sea-Facing Luxury Penthouse</h3>
+                        <div class="property-location"><i class="fas fa-map-marker-alt"></i> Worli, Mumbai</div>
+                        <div class="property-price">₹28.75 Crore</div>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 4 Beds</span>
+                            <span><i class="fas fa-bath"></i> 5 Baths</span>
+                            <span><i class="fas fa-vector-square"></i> 5,200 sq ft</span>
+                        </div>
+                        <a href="property-details.html" class="btn">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="images/property3.jpg" alt="Backwater Heritage Villa">
+                        <span class="property-status">For Sale</span>
+                        <span class="property-featured"><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="property-details">
+                        <div class="property-type">Heritage Villa</div>
+                        <h3 class="property-title">Backwater Heritage Villa</h3>
+                        <div class="property-location"><i class="fas fa-map-marker-alt"></i> Kumarakom, Kerala</div>
+                        <div class="property-price">₹12.9 Crore</div>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 5 Beds</span>
+                            <span><i class="fas fa-bath"></i> 6 Baths</span>
+                            <span><i class="fas fa-vector-square"></i> 6,800 sq ft</span>
+                        </div>
+                        <a href="property-details.html" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-all">
+                <a href="properties.html" class="btn btn-secondary">View All Properties</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-preview">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/about-image.jpg" alt="About Luxury Haveli Estates">
+                </div>
+                <div class="about-text">
+                    <h2>India's Premier Luxury Real Estate Agency</h2>
+                    <p>At Luxury Haveli Estates, we specialize in the most exclusive properties across India. From heritage havelis in Rajasthan to sea-facing penthouses in Mumbai, colonial bungalows in Darjeeling to beachfront villas in Goa, we represent only the finest real estate available.</p>
+                    <p>With over 25 years of experience in the luxury market, our team of expert agents provide discerning clients with personalized service and unparalleled market knowledge.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-gem"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Premium Properties</h4>
+                                <p>Curated selection of India's most exclusive real estate</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Expert Agents</h4>
+                                <p>Specialists in luxury and heritage properties</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Personalized Service</h4>
+                                <p>Tailored approach for each client's unique requirements</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="about.html" class="btn">Learn More About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-preview">
+        <div class="container">
+            <h2 class="section-title">Our Premium Services</h2>
+            <p class="section-subtitle">Comprehensive real estate services tailored to discerning clients</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Property Sales</h3>
+                    <p>Expert guidance through the entire selling process with targeted marketing strategies for luxury properties.</p>
+                    <a href="services.html" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Property Acquisition</h3>
+                    <p>Personalized property search tailored to your specific requirements and preferences.</p>
+                    <a href="services.html" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-rupee-sign"></i>
+                    </div>
+                    <h3>Investment Advisory</h3>
+                    <p>Strategic counsel on luxury real estate investments to maximize returns in the Indian market.</p>
+                    <a href="services.html" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3>Property Renovation</h3>
+                    <p>Heritage restoration and luxury renovation services with India's top architects and artisans.</p>
+                    <a href="services.html" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="locations">
+        <div class="container">
+            <h2 class="section-title">Exclusive Locations</h2>
+            <p class="section-subtitle">Discover luxury properties in India's most prestigious locations</p>
+            
+            <div class="locations-grid">
+                <div class="location-card">
+                    <img src="images/location-mumbai.jpg" alt="Mumbai">
+                    <div class="location-overlay">
+                        <div class="location-content">
+                            <h3>Mumbai</h3>
+                            <p>24 Properties</p>
+                            <a href="properties.html" class="btn">View Properties</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="location-card">
+                    <img src="images/location-delhi.jpg" alt="Delhi NCR">
+                    <div class="location-overlay">
+                        <div class="location-content">
+                            <h3>Delhi NCR</h3>
+                            <p>18 Properties</p>
+                            <a href="properties.html" class="btn">View Properties</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="location-card">
+                    <img src="images/location-jaipur.jpg" alt="Jaipur">
+                    <div class="location-overlay">
+                        <div class="location-content">
+                            <h3>Jaipur</h3>
+                            <p>15 Properties</p>
+                            <a href="properties.html" class="btn">View Properties</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="location-card">
+                    <img src="images/location-goa.jpg" alt="Goa">
+                    <div class="location-overlay">
+                        <div class="location-content">
+                            <h3>Goa</h3>
+                            <p>12 Properties</p>
+                            <a href="properties.html" class="btn">View Properties</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-preview">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <p class="section-subtitle">Hear from our satisfied clients across India</p>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"Luxury Haveli Estates helped us find our dream heritage property in Jaipur. Their knowledge of historical properties and restoration was invaluable. The entire process was smooth and professional."</p>
+                        <div class="client-info">
+                            <img src="images/client1.jpg" alt="Arjun and Meera Kapoor">
+                            <div class="client-details">
+                                <h4>Arjun & Meera Kapoor</h4>
+                                <p>Purchased Haveli in Jaipur</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"After searching for months, Luxury Haveli Estates found us the perfect sea-facing penthouse in Mumbai. Their attention to detail and understanding of our requirements was exceptional."</p>
+                        <div class="client-info">
+                            <img src="images/client2.jpg" alt="Vikram Malhotra">
+                            <div class="client-details">
+                                <h4>Vikram Malhotra</h4>
+                                <p>Purchased Penthouse in Mumbai</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"The team at Luxury Haveli Estates provided exceptional service when selling our family property in Kerala. Their marketing strategy attracted international buyers and achieved a sale price beyond our expectations."</p>
+                        <div class="client-info">
+                            <img src="images/client3.jpg" alt="Priya and Rahul Nair">
+                            <div class="client-details">
+                                <h4>Priya & Rahul Nair</h4>
+                                <p>Sold Villa in Kerala</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-controls">
+                <button class="prev-btn" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="next-btn" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            
+            <div class="view-all-testimonials">
+                <a href="testimonials.html" class="btn btn-secondary">View All Testimonials</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Find Your Dream Luxury Property in India</h2>
+            <p>Let our experts help you discover the perfect property that meets your unique requirements</p>
+            <div class="cta-buttons">
+                <a href="properties.html" class="btn">Explore Properties</a>
+                <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-preview">
+        <div class="container">
+            <h2 class="section-title">Latest from Our Blog</h2>
+            <p class="section-subtitle">Insights and updates from the Indian luxury real estate market</p>
+            
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blog1.jpg" alt="Blog Post">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">April 10, 2025</div>
+                        <h3>The Resurgence of Heritage Properties in Modern India</h3>
+                        <p>Exploring the growing trend of restoring historical havelis and palaces as luxury residences.</p>
+                        <a href="blog.html" class="btn-text">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blog2.jpg" alt="Blog Post">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">April 5, 2025</div>
+                        <h3>Investing in Mumbai's Ultra-Luxury Real Estate Market</h3>
+                        <p>Insights into the current trends and future outlook for Mumbai's premium property segment.</p>
+                        <a href="blog.html" class="btn-text">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blog3.jpg" alt="Blog Post">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">March 28, 2025</div>
+                        <h3>Sustainable Luxury: Eco-Friendly Homes in India</h3>
+                        <p>How Indian luxury properties are incorporating sustainable features without compromising on opulence.</p>
+                        <a href="blog.html" class="btn-text">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-all-blog">
+                <a href="blog.html" class="btn btn-secondary">View All Blog Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>Luxury Haveli Estates</h3>
+                    <p>Providing exceptional service and exclusive properties to discerning clients across India and worldwide.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="properties.html">Properties</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Luxury Enclave, Bandra West, Mumbai 400050</p>
+                    <p><i class="fas fa-phone"></i> (+91) 98765-43210</p>
+                    <p><i class="fas fa-envelope"></i> info@luxuryhaveliestatestes.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Luxury Haveli Estates. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
